@@ -1,0 +1,56 @@
+.summary {
+  padding-bottom:20px;
+  div {
+    display: flex;
+    justify-content: space-between;
+    padding:10px;
+
+    span:first-child {
+      width: 50%;
+
+    }
+    span:nth-child(2) {
+      width: 10%;
+
+    }
+    span:nth-child(3) {
+      width: 30%;
+
+    }
+  }
+}
+
+.movie-list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+  .item {
+    cursor:pointer;
+    .card {
+      text-align: center;
+    }
+  }
+}
+
+.seat-section {
+  display: flex;
+  justify-content: space-between;
+
+  .seat-selection-section {
+    display: flex;
+    justify-content: space-between;
+
+    div {
+      border: 2px solid grey;
+    }
+    div.selected {
+      background-color: lightgreen;
+    }
+
+    div.occupied {
+      background-color: #444451;
+    }
+  }
+}
+
